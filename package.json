@@ -18,7 +18,7 @@
   },
   "build": {
     "appId": "com.tp.markdownitor",
-    "productName": "Markdownitor",
+    "productName": "markdownitor",
     "directories": {
       "output": "dist-electron"
     },

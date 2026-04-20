@@ -50,38 +50,38 @@ Votre dépôt doit contenir l'application web de base **plus** l'intégration El
 
 ### Fondations
 
-| # | Fonctionnalité | Critère de validation |
-|---|---|---|
-| F1 | Fenêtre Electron/Tauri | L'application se lance en tant qu'app desktop (pas un onglet navigateur) |
-| F2 | Chargement de l'app web | L'éditeur Markdown est visible et fonctionnel dans la fenêtre |
-| F3 | Mode détecté | La barre de statut affiche "Mode Electron" (ou Tauri) au lieu du warning navigateur |
-| F4 | DevTools accessibles | On peut ouvrir les DevTools depuis l'app en mode développement |
+| #  | Fonctionnalité          | Critère de validation                                                               |
+|----|-------------------------|-------------------------------------------------------------------------------------|
+| F1 | Fenêtre Electron/Tauri  | L'application se lance en tant qu'app desktop (pas un onglet navigateur)            |
+| F2 | Chargement de l'app web | L'éditeur Markdown est visible et fonctionnel dans la fenêtre                       |
+| F3 | Mode détecté            | La barre de statut affiche "Mode Electron" (ou Tauri) au lieu du warning navigateur |
+| F4 | DevTools accessibles    | On peut ouvrir les DevTools depuis l'app en mode développement                      |
 
 ### Fichiers natifs
 
-| # | Fonctionnalité | Critère de validation |
-|---|---|---|
+| #  | Fonctionnalité    | Critère de validation                                                                   |
+|----|-------------------|-----------------------------------------------------------------------------------------|
 | F5 | Ouvrir un fichier | Cliquer "Ouvrir" affiche un dialogue natif OS et charge le fichier `.md` dans l'éditeur |
-| F6 | Enregistrer | `Ctrl+S` enregistre le fichier sur le disque (sans dialogue si déjà nommé) |
-| F7 | Enregistrer sous | Un dialogue natif permet de choisir l'emplacement et le nom du fichier |
-| F8 | Titre de fenêtre | Le titre de la fenêtre reflète le nom du fichier courant |
+| F6 | Enregistrer       | `Ctrl+S` enregistre le fichier sur le disque (sans dialogue si déjà nommé)              |
+| F7 | Enregistrer sous  | Un dialogue natif permet de choisir l'emplacement et le nom du fichier                  |
+| F8 | Titre de fenêtre  | Le titre de la fenêtre reflète le nom du fichier courant                                |
 
 ### Intégration OS
 
-| # | Fonctionnalité | Critère de validation |
-|---|---|---|
-| F9  | Menu natif | L'application possède un menu natif (Fichier, Édition, Affichage…) avec des raccourcis clavier |
-| F10 | Confirmation fermeture | Fermer la fenêtre avec des modifications non enregistrées affiche une boîte de confirmation |
-| F11 | Notification OS | Une notification système s'affiche après un enregistrement réussi |
-| F12 | System Tray | Une icône apparaît dans la zone de notification ; un menu contextuel permet de rouvrir l'app ou de quitter |
+| #   | Fonctionnalité         | Critère de validation                                                                                      |
+|-----|------------------------|------------------------------------------------------------------------------------------------------------|
+| F9  | Menu natif             | L'application possède un menu natif (Fichier, Édition, Affichage…) avec des raccourcis clavier             |
+| F10 | Confirmation fermeture | Fermer la fenêtre avec des modifications non enregistrées affiche une boîte de confirmation                |
+| F11 | Notification OS        | Une notification système s'affiche après un enregistrement réussi                                          |
+| F12 | System Tray            | Une icône apparaît dans la zone de notification ; un menu contextuel permet de rouvrir l'app ou de quitter |
 
 ### Bonus
 
-| # | Fonctionnalité | Critère de validation |
-|---|---|---|
-| B1 | Packaging | L'application peut être compilée en binaire distribuable (`.exe`, `.dmg` ou `.AppImage`) |
-| B2 | Fenêtre sans cadre | La fenêtre utilise un `titlebar` HTML personnalisé (frame natif désactivé) avec drag fonctionnel |
-| B3 | Fichiers récents | Le menu "Fichier" liste les derniers fichiers ouverts et permet de les recharger |
+| #  | Fonctionnalité      | Critère de validation                                                                                        |
+|----|---------------------|--------------------------------------------------------------------------------------------------------------|
+| B1 | Packaging           | L'application peut être compilée en binaire distribuable (`.exe`, `.dmg` ou `.AppImage`)                     |
+| B2 | Fenêtre sans cadre  | La fenêtre utilise un `titlebar` HTML personnalisé (frame natif désactivé) avec drag fonctionnel             |
+| B3 | Fichiers récents    | Le menu "Fichier" liste les derniers fichiers ouverts et permet de les recharger                             |
 | B4 | Tauri (alternative) | L'intégration est réalisée avec Tauri plutôt qu'Electron — indiquer dans le README les différences observées |
 
 ---
